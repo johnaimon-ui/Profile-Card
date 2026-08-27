@@ -14,7 +14,7 @@
 
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: "Open Sans", sans-serif;
       color: var(--text-dark);
       background: linear-gradient(135deg, var(--soft-blue), var(--extra-light));
       line-height: 1.5;
@@ -92,6 +92,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 
 .icon{
@@ -108,10 +109,17 @@
   .facebook {
     background-color: #3b5998;
 }
-
   .facebook:hover,
   .facebook:focus-visible {
     box-shadow: 0 2px 5px #3b5998;
+    transform: translateY(-2px);
+}
+  .github {
+    background-color: #303d7a;
+}
+  .github:hover,
+  .github:focus-visible {
+    box-shadow: 0 2px 5px #303d7a;
     transform: translateY(-2px);
 }
 
